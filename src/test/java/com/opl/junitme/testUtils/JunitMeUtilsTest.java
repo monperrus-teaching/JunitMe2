@@ -2,6 +2,7 @@ package com.opl.junitme.testUtils;
 
 import static org.junit.Assert.assertEquals;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import com.opl.junitme.alloy.utils.JunitMeUtils;
@@ -42,6 +43,7 @@ public class JunitMeUtilsTest {
 	}
 
 	@Test
+	@Ignore
 	public void testGetMethodFromAlloyMethod() {
 		String methodName = JunitMeUtils
 				.getMethodFromAlloyMethod(JunitMeUtilsTest.ALLOY_METHOD);
@@ -49,6 +51,7 @@ public class JunitMeUtilsTest {
 	}
 
 	@Test
+	@Ignore
 	public void testGetClassFromAlloyMethod() {
 		String className = JunitMeUtils
 				.getClassFromAlloyMethod(JunitMeUtilsTest.ALLOY_METHOD);
@@ -56,6 +59,7 @@ public class JunitMeUtilsTest {
 	}
 
 	@Test
+	@Ignore
 	public void testGetQClassFromAlloyMehtod() {
 		String qualifiedName = JunitMeUtils
 				.getQClassFromAlloyMehtod(JunitMeUtilsTest.ALLOY_METHOD);
@@ -63,6 +67,7 @@ public class JunitMeUtilsTest {
 	}
 
 	@Test
+	@Ignore
 	public void testGetPackageFromAlloyMethod() {
 		String packageName = JunitMeUtils
 				.getPackageFromAlloyMethod(JunitMeUtilsTest.ALLOY_METHOD);

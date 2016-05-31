@@ -34,7 +34,7 @@ and generate nbTests tests for this project
 	public void testMainNewzg() throws Exception{
 		
 		int nrTestCasesToGenerate = 5;
-		int alloyScope = 5;
+		int alloyScope = 4;
 		Main.main(new String[]{
 				new File("./examples/newzg/").getAbsolutePath()
 				,
