@@ -22,7 +22,7 @@ and generate nbTests tests for this project
 		int alloyScope = 8;
 		Main.main(new String[]{
 				new File(
-				"./examples/26_jipa/jipa").getAbsolutePath(),
+				"./examples/26_jipa/").getAbsolutePath(),
 				Integer.toString(nrTestCasesToGenerate), 
 				Integer.toString(alloyScope)
 				});
