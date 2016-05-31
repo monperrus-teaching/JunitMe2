@@ -1,0 +1,13 @@
+language: java
+
+sudo: false
+
+script: mvn test
+
+jdk:
+  - oraclejdk8
+
+notifications:
+  email:
+    - martin.monperrus@univ-lille1.fr
+    - matias.sebastian.martinez@usi.ch
